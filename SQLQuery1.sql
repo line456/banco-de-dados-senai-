@@ -54,5 +54,7 @@ UPDATE Alunos SET id = '2300041150' WHERE id = '2300041156660'
 UPDATE Alunos SET nome = 'Vitoria Akylla Carléo Soares Lima' WHERE id = '2300041150'
 DELETE FROM Alunos WHERE id = '22656467'
 DELETE FROM Alunos WHERE id = '345689'
-
+UPDATE Alunos SET endereco = 'Rua das Flores, Centro, Rio Branco - AC' WHERE id = '1300039359'
+UPDATE Alunos SET endereco = 'Rua das Flores, Centro, Rio Branco - AC' WHERE id = '2200041148'
+UPDATE Alunos SET endereco = 'Rua das Flores, Centro, Rio Branco - AC' WHERE id = '2300041150'
 SELECT * FROM Alunos;
